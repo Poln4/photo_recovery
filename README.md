@@ -2,6 +2,8 @@
 
 **Goal:** Recover deleted JPEGs from a raw memory card image by scanning 512-byte blocks for JPEG signatures.
 
+Built as part of [CS50x](https://cs50.harvard.edu/x/2022/).
+
 ## How it works
 1. Reads the memory card file in 512-byte chunks.
 2. Detects JPEG headers (`0xff 0xd8 0xff 0xe0` / `0xe1`).
